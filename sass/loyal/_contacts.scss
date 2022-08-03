@@ -8,12 +8,14 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
 
-.contact-link:hover,
-.contact-link:focus {
+    &:hover,
+    &:focus {
     color: var(--hover-color);
 }
+}
+
+
 .logo_mail {
     fill: currentColor;
 

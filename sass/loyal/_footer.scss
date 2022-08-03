@@ -36,12 +36,12 @@
 .mail-footer {
     color: var(--text-mail-footer);
     text-decoration: none;
+   &:hover,
+       &:focus {
+            color: var(--hover-color);
+        }
 }
 
-.mail-footer:hover,
-.mail-footer:focus {
-    color: var(--hover-color);
-}
 
 .link-footer {
     margin-left: 70px;
@@ -69,10 +69,11 @@
     border-radius: 50%;
     background-color: var(--social-link-footer);
     color: var(--background-color);
+
+   &:hover,
+       &:focus {
+            background-color: #188ce8;
+            color: var(--background-color);
+        }
 }
 
-.social-link-footer:hover,
-.social-link-footer:focus {
-    background-color: #188ce8;
-    color: var(--background-color);
-}

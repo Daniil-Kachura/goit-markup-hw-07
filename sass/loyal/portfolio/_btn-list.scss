@@ -4,16 +4,17 @@
   justify-content: center;
   margin-bottom: 50px;
 }
+.btn-item{
+    &+& {
+            margin-left: 8px;
+        }
+    
+        &:nth-last-child(-n + 1) {
+            margin-right: 0;
+        }
 
-.btn-list .btn-item+.btn-item {
-  margin-left: 8px;
 }
 
-.btn-item:nth-last-child(-n + 1) {
-  margin-right: 0;
-}
-
-/* колір тіней кнопки при наведені у портфоліо */
 .style-button {
   padding: 6px 22px;
 
@@ -27,18 +28,20 @@
   color: var(--text-color);
   cursor: pointer;
   border: 0;
+
+&:hover,
+   &:focus {
+        box-shadow: 0px 3px 1px var(--boxshadov-clor1),
+            0px 1px 2px var(--boxshadov-clor2),
+            0px 2px 2px var(--boxshadov-clor3);
+
+        color: var(--background-color);
+        background-color: var(--hover-color);
+
+    }
 }
 
-.style-button:hover,
-.style-button:focus {
-  box-shadow: 0px 3px 1px var(--boxshadov-clor1),
-    0px 1px 2px var(--boxshadov-clor2),
-    0px 2px 2px var(--boxshadov-clor3);
 
-  color: var(--background-color);
-  background-color: var(--hover-color);
-
-}
 
 .active-btn {
   background-color: var(--hover-color);

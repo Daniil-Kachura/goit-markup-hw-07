@@ -17,10 +17,10 @@
 .peculiarities-list {
     display: flex;
     align-items: center;
-}
 
-.peculiarities-list .peculiarities-item+.peculiarities-item {
-    margin-left: 30px;
+    & .peculiarities-item+.peculiarities-item {
+            margin-left: 30px;
+        }
 }
 
 .peculiarities-title {

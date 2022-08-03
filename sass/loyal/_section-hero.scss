@@ -54,16 +54,16 @@
     letter-spacing: 0.06em;
 
     cursor: pointer;
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
+    &:hover,
+    &:focus {
     background-color: var(--background-color-btn);
     box-shadow: 0px 4px 4px var(--active-btn-shadov);
     border-radius: 4px;
 }
 
-.hero-btn:active {
+    &:active {
     color: var(--text-color-btn);
     background-color: var(--background-color-btn);
 }
+}
+

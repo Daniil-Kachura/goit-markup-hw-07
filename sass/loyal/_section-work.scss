@@ -14,11 +14,12 @@
 
   position: relative;
 
+  .style-work-list &+& {
+      margin-left: 30px;
+    }
+
 }
 
-.style-work-list .work-item+.work-item {
-  margin-left: 30px;
-}
 
 .work-text {
 
