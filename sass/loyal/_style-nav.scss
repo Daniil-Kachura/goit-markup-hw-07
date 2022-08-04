@@ -1,16 +1,22 @@
-.styless-nav .style-list {
+ .navigation {
+     display: flex;
+     align-items: center;
+ }
+
+ .navigavion__list {
     display: flex;
     margin-left: 95px;
-}
 
-.main-nav {
-    display: flex;
-    align-items: center;
+    & :hover {
+        color: var(--hover-color);
+    }
 }
-.style-item+.style-item {
+ 
+
+.navigavion__item + .navigavion__item {
     margin-left: 50px;
 }
-.nav-link {
+.navigavion__link {
     display: block;
     position: relative;
 
@@ -65,7 +71,7 @@
 
 
 
-.nav-link:hover::after {
+.navigavion__link:hover::after {
     transform: scaleX(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -73,7 +79,7 @@
 
 
 
-.acctive_nav_link {
+.acctive {
     color: var(--hover-color);
     transition-property: color;
     transition-duration: 250ms;
@@ -101,11 +107,4 @@
 
 
 
-.style-list :hover {
-    color: var(--hover-color);
-}
 
-.auth-nav {
-    display: flex;
-    margin-left: auto;
-}

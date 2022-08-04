@@ -1,4 +1,9 @@
-.contact-link {
+.header__contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+.header__contacts_link {
     display: flex;
     align-items: center;
     padding-top: 32px;
