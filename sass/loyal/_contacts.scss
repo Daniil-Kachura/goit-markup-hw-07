@@ -7,7 +7,7 @@
   margin-left: 50px;
 }
 
-.contacts_link {
+.contacts__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -24,16 +24,7 @@
   }
 }
 
-.logo {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
-}
-.logo-mail {
-  width: 16px;
-  height: 12px;
-}
-
-.logo-phone {
-  width: 10px;
-  height: 16px;
 }
