@@ -14,15 +14,12 @@
 
   position: relative;
 
-  .style-work-list &+& {
-      margin-left: 30px;
-    }
-
+  .style-work-list & + & {
+    margin-left: 30px;
+  }
 }
 
-
 .work-text {
-
   padding-top: 27px;
 
   width: 370px;
@@ -36,7 +33,5 @@
 
   position: absolute;
 
-
   bottom: 0;
-
 }
